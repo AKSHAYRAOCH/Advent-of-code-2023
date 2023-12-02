@@ -37,6 +37,6 @@ func main() {
 	ans := strings.Split(string(data), "\n")
 
 	sum := addsum(ans)
-	println(sum)
+	fmt.Println(sum)
 
 }
